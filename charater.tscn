@@ -223,8 +223,8 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=14]
-radius = 44.0
-height = 94.0
+radius = 41.0
+height = 70.0
 
 [node name="Node2D" type="Node2D"]
 
@@ -241,5 +241,5 @@ speed_scale = 2.0
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
-position = Vector2( 437, 274 )
+position = Vector2( 448, 279 )
 shape = SubResource( 14 )
