@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698065227
+::res://::1698065809
 charater.tscn::PackedScene::2723105080107871757::1697300072::0::1::::<><>::uid://ccdlj5qqlbhjo::::res://assets/NinjaAdventure/Backgrounds/Tilesets/TilesetFloor.png<>uid://csx4ehbr8wm5e::::res://assets/NinjaAdventure/Backgrounds/Tilesets/TilesetFloorB.png<>uid://dnwi3nod4rh4v::::res://assets/NinjaAdventure/Backgrounds/Tilesets/Interior/TilesetInteriorFloor.png
 default_env.tres::Environment::7720866629720395572::1697300072::0::1::::<><>::
 icon.png::CompressedTexture2D::7906374667328486148::1696517029::1697212461::1::::<><>::
@@ -7,7 +7,7 @@ KinematicBody2D.gd::GDScript::-1::1697212440::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1696517029::0::1::::<><>::
 SUPPORTERS.md::TextFile::-1::1696517029::0::1::::<><>::
 VERSION.md::TextFile::-1::1696517029::0::1::::<><>::
-::res://addons/::1696517029
+::res://addons/::1698065279
 ::res://addons/github-integration/::1697212464
 github-logo.png::CompressedTexture2D::3611899141203735598::1696517029::1697212464::1::::<><>::
 plugin.cfg::TextFile::-1::1696517029::0::1::::<><>::
@@ -106,6 +106,13 @@ user_data.gd::GDScript::-1::1697212441::0::1::::<>Node<>::
 WindowDialog.gd::GDScript::-1::1697212441::0::1::::<>Control<>::
 ::res://addons/github-integration/user/::1697212465
 placeholder.png::CompressedTexture2D::1611847875244239326::1696517029::1697212465::1::::<><>::
+::res://addons/godot-git-plugin/::1698065279
+git_plugin.gdextension::GDExtension::-1::1698065279::0::1::::<><>::
+plugin.cfg::TextFile::-1::1698065279::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1698065279::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1698065279
+::res://addons/godot-git-plugin/macos/::1698065279
+::res://addons/godot-git-plugin/win64/::1698065279
 ::res://assets/::1697212311
 ::res://assets/NinjaAdventure/::1697212461
 Example 5 ( Old Version).png::CompressedTexture2D::3494569675402288417::1697208219::1697212461::1::::<><>::
