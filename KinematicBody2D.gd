@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 var speed = 200  # speed in pixels/sec
 var animated_dir = "_down"
@@ -24,9 +24,10 @@ func _process(_delta):
 	else:
 		status_a = "idel"
 		#get_node("AnimatedSprite").play("idel")
-	get_node("AnimatedSprite").play(status_a + animated_dir )
+	get_node("AnimatedSprite2D").play(status_a + animated_dir )
 
 func _physics_process(delta):
 	var direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	print(direction)
-	move_and_slide(direction * speed)
+	set_velocity(direction * speed)
+	move_and_slide()
