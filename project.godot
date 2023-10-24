@@ -24,7 +24,7 @@ RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/github-integration/plugin.cfg")
+enabled=PackedStringArray()
 
 [global]
 

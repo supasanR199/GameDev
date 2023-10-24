@@ -1,2 +1,3 @@
 res://default_env.tres
 res://charater.tscn
+res://CharacterBody2D.gd
